@@ -12,3 +12,8 @@ const LOCAL_FORECAST = {
 const {today: {low: lowToday, high: highToday}} = LOCAL_FORECAST;
 
 // Only change code above this line
+// let lowToday = LOCAL_FORECAST.today.low;
+// let lowToday = LOCAL_FORECAST["today"]["low"];
+
+
+console.log(lowToday);
